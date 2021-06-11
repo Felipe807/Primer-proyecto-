@@ -1,0 +1,97 @@
+h1{
+    color:red;
+    background-color: black;
+    font-family: 'Pattaya', sans-serif; 
+    text-align: center ;
+}
+
+
+
+body{
+    background-color: white; 
+}
+
+p{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+    .menu{
+        display: flex;
+        justify-content: center;
+        height: 80px;
+        align-items: center;
+        
+    }
+
+    .menu li{
+        list-style: 50x;
+        margin-left: 30px;
+
+    }
+
+    nav{
+        background-color:black;
+        height: 80px;
+        color: white;
+    }
+
+.input_contacto{
+    width:80%;
+    border:2px black solid; 
+}
+
+.div_contacto {
+    margin-top:5px;
+}
+
+.boton_contacto{
+    text-align:center;
+    margin-top:5px;
+}
+
+form{
+    text-align:center;
+    width:50%;
+    margin-left:20%;
+}
+
+.padre{
+display:flex;
+justify-content: space-around;
+}
+
+.padre div { 
+    width: 50%;
+}
+
+.personaje{
+    width: 25%;
+    text-align: center;
+    border:black 3px solid;
+    
+}
+
+.personaje div {
+text-align :left;
+}
+
+.todos_los_personajes{
+ display : flex;
+ flex-wrap: wrap;
+ 
+}
+.fondo-negro{
+    background-color: black;
+    height: 100px;
+    margin: 1px; 
+
+}
+
+.alto-carousel{
+    height: 600px;
+}
+
+.parrafo-descripcion{
+    height: 200px;
+} 
